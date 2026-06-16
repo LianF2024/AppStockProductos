@@ -3,7 +3,8 @@ package com.borbor.viewmodel
 import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.ViewModel
 
-
+// Commit 1: Se crea la data class Producto y el ViewModel StockViewModel.
+// Aquí se define el modelo de datos y la lista inicial de productos con mutableStateListOf.
 data class Producto(
     val id: Int,
     val nombre: String,
