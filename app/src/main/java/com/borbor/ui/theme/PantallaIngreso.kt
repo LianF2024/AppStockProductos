@@ -6,6 +6,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.navigation.NavController
 
+// Commit 2: Se implementa PantallaIngreso.
+// Incluye TextField para nombre del operario, validación de longitud mínima y navegación al inventario.
 @Composable
 fun PantallaIngreso(navController: NavController) {
     var nombre by remember { mutableStateOf("") }
