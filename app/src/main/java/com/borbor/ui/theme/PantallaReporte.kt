@@ -7,7 +7,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.borbor.viewmodel.StockViewModel
-
+// Commit 5: Se implementa PantallaReporte.
+// Muestra el capital invertido total y el número de productos agotados.
+// Los cálculos se obtienen desde el ViewModel.
 @Composable
 fun PantallaReporte(navController: NavController, vm: StockViewModel) {
     val capitalTotal = vm.calcularValorTotalInventario()
