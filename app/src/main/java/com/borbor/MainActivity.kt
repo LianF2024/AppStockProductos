@@ -29,6 +29,8 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+// Commit 6: Se configura el NavHost en MainActivity.
+// Conecta las 4 pantallas y define el paso de argumentos (nombre del operario y id del producto).
 @Composable
 fun AppNavigation(vm: StockViewModel) {
     val navController = rememberNavController()
