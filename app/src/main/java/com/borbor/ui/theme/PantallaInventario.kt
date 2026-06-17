@@ -11,7 +11,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.borbor.viewmodel.StockViewModel
-
+// Commit 3: Se implementa PantallaInventario.
+// Muestra nombre del operario, botones de filtro, lista de productos y navegación a PantallaEdicion y PantallaReporte.
 @Composable
 fun PantallaInventario(navController: NavController, vm: StockViewModel, nombre: String) {
     var mostrarCriticos by remember { mutableStateOf(false) }
