@@ -7,7 +7,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.borbor.viewmodel.StockViewModel
-
+// Commit 4: Se implementa PantallaEdicion.
+// Permite modificar el stock con botones +1 y -1, validando que no sea negativo.
+// Al guardar, se actualiza el ViewModel y se regresa al inventario.
 @Composable
 fun PantallaEdicion(navController: NavController, vm: StockViewModel, id: Int) {
     val producto = vm.obtenerProducto(id) ?: return
